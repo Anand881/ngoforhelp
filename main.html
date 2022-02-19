@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link rel="stylesheet" href="mainstyles.css">
+    <link rel="icon" href="./images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    
+ 
+  
+  
+</head>
+<body link="white" vlink="white" alink="white">
+    <!-- header  -->
+    <div class="header" id="header">
+    <div class="container header_container">
+        <div class="logo">
+            Help the Needy_NGO
+
+       </div>
+        <div class="nav">
+           <div class="nav-item"><a href="home.html">HOME</a></div>
+           <div class="nav-item"><a href="about.html">ABOUT</a></div>
+            <div class="nav-item"><a href="main.html">DONATE</a></div>
+        </div>
+         </div>
+
+
+         
+    </div>
+    <!-- header end  -->
+    <!-- banner -->
+    <div class="banner">
+        <div class="overlay">
+            <div class="banner-text">
+                <div class="padd">
+                    
+                         
+
+                      <p>       
+                        <li class="first"><h3>Deliver at :</h3></li>
+                    
+                    <li><br><br>New Pandra,Near government school sarkari kowa gali<br>Ratu road, Ranchi Jharkhand</li>
+                    <li>Pin-code : 834005</li>
+                    <li>contact : 9162935654</li>
+                    <li>e-mail: anandbhagat04@gmail.com</li>
+
+                      </ul><br><br><br>
+                    
+                    </p>
+                                    <p>
+                                        
+                                        <a href="https://pages.razorpay.com/pl_INkwA65iCSQL8G/view"><button  class="btn banner_btn" >Financial help</button></a>    
+                                    </p>
+                </div>
+            </div>
+
+
+
+              <!-- css for animation  -->
+             <div class="container slide-show">
+            
+
+                <div class="w3-content w3-section" style="max-width:500px">
+                    <img class="mySlides w3-animate-left" src="img1.jpg" style="width:80%">
+                    
+
+
+
+                    <img class="mySlides w3-animate-left" src="img2.jpg" style="width:80%">
+                    <img class="mySlides w3-animate-left" src="img3.jpg" style="width:80%">
+                    <img class="mySlides w3-animate-top" src="img4.jpg" style="width:80%">
+                    <img class="mySlides w3-animate-left" src="img5.jpg" style="width:80%">
+                    <img class="mySlides w3-animate-left" src="img6.jpg" style="width:80%">
+                    <img class="mySlides w3-animate-left" src="img7.jpg" style="width:80%">
+                    <img class="mySlides w3-animate-right" src="img8.jpg" style="width:80%">
+                    <img class="mySlides w3-animate-left" src="img9.jpg" style="width:80%">
+                    <img class="mySlides w3-animate-left" src="img10.jpg" style="width:80%">
+                    <img class="mySlides w3-animate-left" src="img11.jpg" style="width:80%">
+                    <img class="mySlides w3-animate-left" src="img12.jpg" style="width:80%">
+                    
+                    <br><br>
+                    <p>
+                        <a href="about.html"><button  class="btn banner_btn" >KNOW US MORE</button></a>    
+                    </p>
+
+                </div>
+
+
+                     
+               
+            
+            <script>
+            var myIndex = 0;
+            
+            carousel();
+
+                function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                        }
+
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                 setTimeout(carousel, 2500);    
+                    }
+
+</script>
+
+
+  </div>
+
+    </div>
+</div>
+
+    <!-- css for footer  -->
+
+    <div class="footer">
+        <div class="container footer_container">
+            <div class="footer_child footer_child_1">
+                <h3 class="footer_logo">Help the Needy_NGO</h3>
+            </div>
+            <div class="footer_child">
+                <ul>
+                    <li class="first">Quick Links</li>
+                    <a href="home.html"><li>Home</li></a>
+                    
+                   <a href="about.html"> <li>About</li></a>
+                    
+                    <a href="main.html"> <li>Donation</li></a>
+
+                </ul>
+            </div>
+            <div class="footer_child">
+                <ul>
+                    <li class="first">Contact Us</li>
+                    <li>
+                        New Pandra,Near gov school sarkari kowa gali, Ranchi Jharkhand
+                        
+                    </li>
+                    <li>9162935654</li>
+                    <li>anandbhagat04@gmail.com</li>
+
+                </ul>
+            </div>
+            <div class="footer_child footer_child_4">
+                <div class="container social_container">
+                    <div class="social_icon si1"></div>
+                    <div class="social_icon si4"></div>
+                    <div class="social_icon si3"></div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+
+    <script>
+
+        window.onscroll=function(){
+            if(window.pageYOffset>100){
+                document.getElementById('header').style.backgroundColor="rgba(16, 128, 234, 1)";
+            }
+            else {
+                document.getElementById('header').style.backgroundColor="transparent";
+            }   
+        }
+
+
+
+    </script>
+
+    </body>
+    </html>
+    
